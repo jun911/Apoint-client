@@ -1,0 +1,929 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+}
+
+html, body{
+  height:100%;
+  font-family: sans-serif, apple sd gothic neo;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+body{
+  background-color: #2c2c2c;
+  color: #999999;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-color: #aaa;
+  margin-bottom: 0;
+}
+/*
+footer{
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+
+  max-width: 400px;
+
+  text-align: center;
+  font-size: 13px;
+}
+*/
+small{
+  opacity: 0.5;
+}
+
+.bodyDiv{
+  padding: 10px;
+}
+
+.allmTitle{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loginForm{
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  */
+  margin: 0 40px;
+  /*margin-top: 30%;*/
+}
+
+.loginForm input[type=text], input[type=password]{
+  /*-webkit-appearance: none;*/
+  appearance: none;
+  margin: 5px 0;
+  padding: 5px 0;
+  background-color: black;
+  /*background: transparent;*/
+  width:100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #AAAAAA;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.loginForm input[type="submit"]{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.loginError{
+  color: #ff3300;
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.companyRight{
+  width: 100%;
+  position:absolute;;
+  bottom: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.backBtn, .backBtnNoAction{
+  float: left;
+  width: 15px;
+  cursor: pointer;
+  color: #99cc00;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  background: #888888;
+  background-image: -webkit-linear-gradient(top, #888888, #666666);
+  background-image: -moz-linear-gradient(top, #888888, #666666);
+  background-image: -ms-linear-gradient(top, #888888, #666666);
+  background-image: -o-linear-gradient(top, #888888, #666666);
+  background-image: linear-gradient(to bottom, #888888, #666666);
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 0 1px 3px #2c2c2c;
+  vertical-align: middle;
+}
+
+.btnSelect{
+  width: 31%;
+  min-height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 6px;
+  /*padding: 5px;*/
+  vertical-align: middle;
+  background: #666666;
+
+  color: #cccccc;
+  font-size: 14px;
+  text-shadow: 0 1px 3px #2c2c2c;
+}
+
+.btnNumber{
+  width: 23%;
+  min-height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 6px;
+  padding: 5px;
+  /*background-color: #666666;*/
+  background: #666666;
+
+  color: #cccccc;
+  font-size: 14px;
+  text-shadow: 0 1px 3px #2c2c2c;
+}
+
+.btnSelect:hover{
+  background: #99cc00;
+  color: #000000;
+  text-shadow: none;
+}
+
+.btnNumber:hover{
+  background: #99cc00;
+  color: #000000;
+  text-shadow: none;
+}
+
+#PageToPoint .toPoints{
+  text-align: center;
+  font-size: 24px;
+}
+
+.GiftPage{
+  position: absolute;
+  top: 45px;
+  left: 25px;
+  right: 25px;
+  bottom: 80px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.GiftPage input{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.GiftPage title{
+  display: block;
+}
+
+.GiftPage .displayBox{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+.point{
+  color: #99cc00;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: #ade600;
+  background-image: -webkit-linear-gradient(top, #ade600, #99cc00);
+  background-image: -moz-linear-gradient(top, #ade600, #99cc00);
+  background-image: -ms-linear-gradient(top, #ade600, #99cc00);
+  background-image: -o-linear-gradient(top, #ade600, #99cc00);
+  background-image: linear-gradient(to bottom, #ade600, #99cc00);
+
+  color: #000000;
+  text-shadow: none;
+}
+
+.dS{
+  box-shadow: 0 3px 3px #1a1a1a;
+}
+
+.naviBox{
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+.nviBtn{
+  width:23%;
+  height:50px;
+}
+
+/*
+.pageHead{
+  background-color: #666666;
+  border-radius: 11px;
+  padding: 3px 10px 6px 10px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+*/
+.pageHead{
+  background-color: #1a1a1a;
+  border-radius: 11px;
+  padding: 3px 10px 6px 10px;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pageBody{
+  position: absolute;
+  top: 37px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  /*
+  border: 1px solid #444;
+  border-radius: 11px;
+  */
+}
+
+.pageBodyBox h3{
+  font-size: 13px;
+  border: 1px solid #666666;
+  border-radius: 11px;
+  height: 20px;
+  padding: 5px 10px;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.pageBodyBox form{
+  border: 1px solid #444444;
+  border-radius: 11px;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+.pageBodyBox button{
+  width: 100%;
+  font-weight: normal;
+  height: 40px;
+}
+
+.pageBodyBox .pwCompareString{
+  float: right;
+}
+
+.pageBodyBox input[type=text], input[type=password]{
+  appearance: none;
+  margin: 5px 0;
+  padding: 5px 0;
+  background-color: black;
+  width:100%;
+  color: #AAAAAA;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*.pointBox{ margin-top: 10px; width: 45%; padding: 5px; border: 1px solid #666666; border-radius: 10px;}*/
+.pointBox{ margin-top: 20px; width: 49%; border: none;}
+.pointBox li:first-child{ margin: 5px 0 0 0; padding: 5px 0; text-align: center; background-color: black; width:100%; font-size: 24px; font-weight: bold; border-radius: 10px; }
+.pointBox li:last-child{ text-align: center; font-size: 12px; opacity: 0.5;}
+
+#SceneGift{ }
+
+#SceneGift #to, #toReason, #toPoints, #comment {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 5px;
+  background-color: black;
+  width:calc(100% - 10px);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+#PageGift{
+  text-align: center;
+}
+
+#sendBtn{
+  height: 40px;
+  width: 100%;
+}
+
+#SceneHistory .pointHistory{
+  margin: 0 5px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+#SceneMyState .pointHistory{
+  height: 90px;
+  overflow-y: none;
+}
+.mainSubBody{
+  /*
+  border: 1px solid #444444;
+  border-radius: 10px;
+  */
+  padding: 0 5px;
+  font-size: 13px;
+  text-align: center;
+  min-height: 20px;
+}
+
+.mainSubHead{
+  clear: both;
+  margin-top: 10px;
+  height: 26px;
+  /*border: 1px solid #666666;*/
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #1a1a1a;
+}
+.mainSubHeadMore{
+  position: absolute;
+  right: 15px;
+}
+
+.pointHistory headTitle{ }
+.pointHistory ul { display: table; width: 100%; }
+.pointHistory li { display: table-row; margin-top: 0; padding: 0; border-bottom: 1px solid #444; height: 32px;}
+.pointHistory li date{ border-bottom: inherit;  display: table-cell; color: #666666; font-size: 12px; vertical-align: middle;}
+.pointHistory li from{ border-bottom: inherit; display: table-cell; vertical-align: middle; font-size: 12px; }
+.pointHistory li arrow{ border-bottom: inherit; display: table-cell; vertical-align: middle;}
+.pointHistory li to{ border-bottom: inherit; display: table-cell; vertical-align: middle; font-size: 12px; }
+.pointHistory li point{ border-bottom: inherit; display: table-cell; vertical-align: middle; font-size: 18px; font-weight: bold; text-align: right; }
+.pointHistory li .me { color:orange; }
+.pointHistory li:last-child { border:none }
+
+.me { color:orange; }
+
+.PointResult{
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.PointResult resultTitle{ display: block; margin: 10px; font-size: 16px; font-weight: bold; color: #000; border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 10px;}
+.PointResult from{ display: block; padding: 5px; font-size: 18px; border: none;}
+.PointResult to{ display: block; padding: 5px; font-size: 18px; color: #333333;}
+.PointResult point{ display: block; width: 80%; margin-left: auto; margin-right: auto; font-size: 30px; font-weight: bold; background-color: black; padding: 5px; border-radius: 10px; }
+.PointResult button{ display: block; width: 100%; height: 30px; margin-top: 30px;}
+.PointResult reason{ display: block; font-size: 18px;  color: #333333;}
+.PointResult comment{ display: block; font-size: 14px;  color: #333333;}
+.PointResult date{ display: block; font-size: 14px; }
+
+.GiftDetail{
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+.GiftDetail ul{display: table; width: 100%; margin: 10px 0;}
+.GiftDetail ul>li{display: table-row;}
+.GiftDetail ul>li>label{display: table-cell; font-size: 12px; text-align: right; padding: 5px 10px; border-right: 1px dashed #999;}
+.GiftDetail resultTitle{ display: block; font-size: 16px; font-weight: bold; color: #000; text-align: center;}
+.GiftDetail point{ display: block; padding: 5px 10px; font-size: 18px; font-weight: bold; border:none;}
+.GiftDetail topStaff{ display: block; padding: 5px 10px; font-size: 13px; font-weight: bold; border:none; color: #333;}
+.GiftDetail button{ display: block; width: 100%; height: 30px; }
+.GiftDetail reason{ display: block; padding: 5px 10px; font-size: 13px; color: #333; }
+.GiftDetail comment{ display: block; padding: 5px 10px; font-size: 13px; color: #333; }
+.GiftDetail date{ display: block; padding: 5px 10px; font-size: 14px; color: #333;}
+
+
+.GiftConfirm {
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+.GiftConfirm ul{display: table; width: 100%; margin: 10px 0;}
+.GiftConfirm ul>li{display: table-row;}
+.GiftConfirm ul>li>label{display: table-cell; font-size: 12px; text-align: right; padding: 5px 10px; border-right: 1px dashed #999;}
+.GiftConfirm resultTitle{ display: block; font-size: 16px; font-weight: bold; color: #000; text-align: center;}
+.GiftConfirm point{ display: block; padding: 5px 10px; font-size: 18px; font-weight: bold; border:none;}
+.GiftConfirm topStaff{ display: block; padding: 5px 10px; font-size: 13px; font-weight: bold; border:none; color: #333;}
+.GiftConfirm button{ display: block; width: 100%; height: 30px; }
+.GiftConfirm reason{ display: block; padding: 5px 10px; font-size: 13px; color: #333; }
+.GiftConfirm comment{ display: block; padding: 5px 10px; font-size: 13px; color: #333; }
+.GiftConfirm date{ display: block; padding: 5px 10px; font-size: 14px; color: #333;}
+
+.GiftConfirm .closeBtn{
+  float: right;
+  width: 24px;
+  height: 24px;
+}
+
+.hangle{
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0;
+  background: #666666;
+
+  color: #cccccc;
+  font-size: 12px;
+  text-shadow: 0 1px 3px #2c2c2c;
+}
+
+.hangle:hover{
+  background-color: #99cc00;
+  color: #000000;
+}
+
+.myPointColor{
+  color: #99cc00;
+}
+
+.giftPointColor{
+  color: #ff3300;
+}
+
+.waitClass{
+  position: absolute;
+  top:50%;
+  margin-top: -30px;
+  height: 60px;
+  width: 100%;
+  font-size: 16px;
+  color: orange;
+  text-align: center;
+}
+
+.teamStaff{
+  height: 100%;
+  overflow-y: scroll;
+  margin-left: 100px;
+}
+
+.teamStaff button{
+  height: 65px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0;
+  background: #666666;
+  color: #cccccc;
+  font-size: 13px;
+  font-weight: normal;
+  text-shadow: 0 1px 3px #2c2c2c;
+  vertical-align: middle;
+}
+
+.teamSelect{
+  float: left;
+  width: 115px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.teamSelect button{
+  min-height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  background: #666666;
+  color: #cccccc;
+  font-size: 13px;
+  font-weight: normal;
+  text-shadow: 0 1px 3px #2c2c2c;
+  vertical-align: middle;
+}
+
+.accordionStyle{
+  margin-bottom: 5px;
+  width: 100%;
+  height: 100%;
+}
+.accordionStyle>h3{
+  border: 1px solid #666666;
+  border-radius: 11px;
+  height: 20px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+.accordionStyle>h3>label{
+  float: left;
+  margin-left: 5px;
+  font-size: 13px;
+}
+.accordionStyle>h3>result{
+  margin-top: -5px;
+  float: right;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.accordionStyle>div{
+  clear: both;
+  overflow-y: auto;
+  /*
+  border: 1px solid #444444;
+  border-radius: 11px;
+  */
+  padding: 5px;
+}
+.accordionStyle input[type=text], input[type=number], input[type=date], textarea{
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  padding: 5px 5px;
+  color: #fff;
+}
+
+.accordionStyle textarea{
+  height: 100px;
+}
+
+.msgNoticeTitle{
+  color: rgb(77, 191, 37);
+}
+.msgNoticeMsg{
+  color: rgb(113, 158, 28);
+}
+.msgErrorTitle{
+  color: rgb(186, 37, 37);
+}
+.msgErrorMsg{
+  color: rgb(190, 101, 50);
+}
+
+.LookCheck{
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  color: #000000;
+}
+.LookCheck .closeBtn{
+  float: right;
+  width: 24px;
+  height: 24px;
+}
+.LookCheck h3{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.LookList{
+  /*height: 400px;*/
+  /*position: absolute;
+  top: 120px;
+  left: 20px;
+  bottom: 50px;
+  right: 20px;*/
+  /*overflow-y: auto;*/
+  margin: 5px;
+  border-top: 1px solid #999999;
+}
+
+.LookSummary{
+  width: 100%;
+  color: #d2a800;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.LookList>ul{
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.LookList>ul>li{
+  display: table-row;
+}
+
+.LookList>ul>li>date, from, point{
+  display: table-cell;
+  border-bottom: 1px solid #999999;
+  padding: 3px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.LookList>ul>li>date{
+  text-align: center;
+}
+.LookList>ul>li>from{
+  text-align: center;
+}
+.LookList>ul>li>point{
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+.miniBtn{
+  display: inline-block;
+  /*border: 1px solid #999999;*/
+  border-radius: 5px;
+  width: 20px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 5px;
+  text-align: center;
+  margin: 1px;
+  cursor: pointer;
+  color: #aaa;
+  background-color: #1a1a1a;
+}
+.mainHead{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+}
+.mainHead #logout{
+  float: left;
+}
+.mainHead #myPageBtn, #adminBtn{
+  float: right;
+}
+.mainHeadTitle{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  z-index: -1;
+}
+
+.projectListScrollBox {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 42px;
+  bottom: 5px;
+  overflow-y: auto;
+}
+.projectList {
+  /* margin: 0 5px; */
+  height: 100%;
+}
+.projectList headTitle{ }
+.projectList ul { display: table; width: 100%; }
+.projectList li { display: table-row; margin-top: 0; padding: 0; border-bottom: 1px solid #444; height: 32px;}
+
+.projectList li noData{ padding: 5px 0; border-bottom: inherit; display: table-cell; font-size: 12px; text-align: center; vertical-align: middle; }
+.projectList li newMark{ padding: 2px; border-radius: 5px; margin-right: 3px; background-color: orange; color:black; font-weight: bold; font-size: 10px; text-align: center; vertical-align: middle; }
+.projectList li name{ padding: 5px 0; border-bottom: inherit; display: table-cell; font-size: 12px; text-align: left; vertical-align: middle; }
+.projectList li reward{ padding: 0 5px; border-bottom: inherit; display: table-cell; font-size: 16px; font-weight: bold; text-align: right; vertical-align: middle; width: 80px;}
+.projectList li people{ padding: 5px 0; margin-left: 2px; border-bottom: inherit; display: table-cell; font-size: 12px; text-align: center; vertical-align: middle; width: 30px; }
+.projectList li hits{ padding: 5px 0; margin-left: 2px; border-bottom: inherit; display: table-cell; font-size: 12px; text-align: center; vertical-align: middle; width: 30px; }
+
+/*
+.projectList li name{ padding: 0; display: block; font-size: 12px; text-align: left; vertical-align: middle; }
+.projectList li reward{ border-bottom: inherit; font-size: 16px; font-weight: bold; text-align: right; width: calc(100% - 30px); float:right;}
+.projectList li people{ border-bottom: inherit; font-size: 12px; text-align: right; float:right; width: 30px;}
+*/
+.projectList li:last-child { border:none }
+
+.projectTypeBtns{
+  margin: 5px;
+  text-align: center;
+  /*border-bottom: 1px #555 solid;*/
+}
+.projectTypeBtns li{
+  display: inline-block;
+  width: 13.7%;
+  font-size: 12px;
+  line-height: 100%;
+  padding: 5px 0;
+  /*
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: 1px #555 solid;
+  border-left: 1px #555 solid;
+  border-right: 1px #555 solid;
+  */
+  border-radius: 5px;
+  border: 1px #555 solid;
+  vertical-align: middle;
+  color: inherit;
+  background-color: none;
+}
+.projectTypeBtns li:hover{
+  color: #000000;
+  background-color: #99cc00;
+}
+
+.PageProjectDetail{
+  max-height: 90%;
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+/*
+.PageProjectDetail ul{display: table; width: 100%; margin: 10px 0;}
+.PageProjectDetail ul>li{display: table-row;}
+.PageProjectDetail ul>li>label{display: table-cell; width: 60px; font-size: 12px; text-align: right; padding: 5px 10px; border-right: 1px dashed #999;}
+.PageProjectDetail resultTitle{ display: block; font-size: 16px; font-weight: bold; color: #000; text-align: center;}
+.PageProjectDetail type,registrant,recruimentDay,content,completeDay,result,qualification,expectationMember,volunteerMember,volunteerMemberCount,progressMember,rewardAp,dateReg,dateStart,dateEnd { display: block; padding: 5px 10px; font-size: 13px; border:none; color:#333}
+*/
+
+.PageProjectDetail ul{display: block; width: 100%; margin: 10px 0;}
+.PageProjectDetail ul>li{display: block; min-height: 28px; border-bottom: 1px dashed #999; margin-bottom: 5px;}
+.PageProjectDetail ul>li>label{ font-size: 12px; padding: 5px 2px; } /*  */
+.PageProjectDetail resultTitle{ display: block; font-size: 16px; font-weight: bold; color: #000; text-align: center;}
+.PageProjectDetail type,registrant,recruimentDay,completeDay,volunteerMemberCount,rewardAp,dateReg,dateStart,dateEnd { float: right; padding: 5px 0px 5px 2px; font-size: 13px; border:none; color:#333; }
+.PageProjectDetail content,result,qualification,expectationMember,volunteerMember,progressMember { display: block; padding: 5px 0px 5px 12px; font-size: 13px; border:none; color:#333}
+
+
+.PageProjectDetail registrant{ font-weight: bold; }
+.PageProjectDetail rewardAp{ font-size:16px; font-weight: bold; }
+
+.PageProjectDetail .closeBtn{
+  float: right;
+  width: 24px;
+  height: 24px;
+}
+
+.btnBox{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.regProjectBtnBox{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+}
+
+.regProjectBtn{
+  margin-top: 15px;
+  height: 30px;
+  width: 100%;
+}
+
+.regProjectFormBtn{
+  height: 30px;
+}
+
+.projectListBox{
+  position: absolute;
+  top: 37px;
+  bottom: 45px;
+  left: 10px;
+  right: 10px;
+  /*
+  border: 1px solid #444;
+  border-radius: 11px;
+  */
+}
+
+.projectRegistForm{
+  position: absolute;
+  top: 37px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  overflow-y: auto;
+}
+
+.rewardListBox{
+  position: absolute;
+  top: 37px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  /*
+  border: 1px solid #444;
+  border-radius: 11px;
+  */
+}
+
+.rewardListScrollBox {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  overflow-y: auto;
+}
+
+.rewardList{
+  height: 100%;
+}
+
+.rewardList headTitle{ }
+.rewardList ul { display: table; width: 100%; }
+.rewardList li { display: table-row; margin-top: 0; padding: 0; border-bottom: 1px solid #444; }
+.rewardList li name{ padding: 7px 0; border-bottom: inherit; display: table-cell; font-size: 12px; text-align: left; vertical-align: middle; }
+.rewardList li cost{ border-bottom: inherit; display: table-cell; font-size: 16px; font-weight: bold; text-align: right; vertical-align: middle; min-width: 50px;}
+.rewardList li:last-child { border:none }
+
+.rewardAble{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.FloatDiv{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fullBlack{
+  background-color: #000000;
+}
+
+.verticalCenter{
+  display: flex;
+  flex-flow: column;
+  height: inherit;
+}
+
+.verticalCenter>div:first-child,div:last-child{
+  flex: 1 0 auto;
+}
+
+.verticalCenter>div:nth-child(2){
+  flex: 0 0 auto;
+}
+
+.alertBox{
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.alertBox>t3{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.alertBox>msg{
+  display: block;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.confirmBox{
+  margin: 0 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.confirmBox popupTitle{ display: block; font-size: 16px; font-weight: bold; color: #000; text-align: center;}
+.confirmBox popupContent{ display: block; font-size: 13px; color: #333; text-align: center; margin-bottom: 20px;   border-top: 1px solid #ccc;  padding-top: 10px;  margin-top: 10px;}
+.confirmBox btnBox{ display: block; text-align: center;}
+.confirmBox button{ width: 48%; height: 30px; }
+
+.passDate{
+  text-decoration: line-through;
+  color: #444;
+}
